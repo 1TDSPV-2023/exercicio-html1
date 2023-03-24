@@ -1,0 +1,15 @@
+.meu-site{
+    background-color: bisque;
+    color: red;
+    
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+div{
+    margin-left: 20%;
+    margin-right: 20%;
+}
