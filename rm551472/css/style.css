@@ -1,0 +1,9 @@
+div{
+    margin-left: 0 20%;
+    background-color: aqua;
+    border: 2px solid red;
+}
+
+li.link a,a.link{
+    color: blue;
+}
