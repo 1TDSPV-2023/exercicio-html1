@@ -4,3 +4,7 @@
     box-sizing: border-box;
     font-size: 16px;
 }
+h1{
+    padding: 10px;
+    border: 2px solid #ff00
+}
