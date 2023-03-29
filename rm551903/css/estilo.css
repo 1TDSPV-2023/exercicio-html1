@@ -1,4 +1,35 @@
-div{
+/*#container{
     margin-left: 20%;
     margin-right: 20%;
-}
+    background-color: aqua;
+    border: 2px solid red
+} */
+
+/* 
+Sendo pouco especifico com class
+*/
+
+/*li.link a, a.link{
+    color :brown;
+ } */
+
+ /**/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+ }
+
+ h1{
+    width: 284px;
+    height: 249px;
+    background-color: #d9d9d9;
+    padding: 30px 30 px 30px 30px;
+
+    border: solid 2px #ffff00;
+    text-align: center;
+ }
+
+
