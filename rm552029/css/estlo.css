@@ -1,0 +1,38 @@
+/* #container{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aqua;
+    border: 2px solid #ff0000;
+}
+
+/*
+Sendo pouco especifico com class
+*/
+/* 
+li.link a, a.link{
+    color : brown;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1{
+    width: 284px;
+    height: 249px;
+    background-color: #d9d9d9;
+    padding: 30px 30px;
+    border: solid 2px #ffff00;
+    float: left;
+   
+/* 
+    border-style: solid;
+    border-left: 2px;
+    border-right: 1px;
+    border-top: 0;
+    border-bottom: 0; */
+
+    text-align: center;
+}
