@@ -1,47 +1,59 @@
-/* .meu-site{
-    background-color: bisque;
-    color: red;
-    
-}
-
-nav ul li {
-    display: inline;
-    padding: 0 20px 0 20px;
-} */
-
-
-
 /* #container{
     margin-left: 20%;
     margin-right: 20%;
     background-color: aqua;
     border: 2px solid #ff0000;
 }
+
+/*
+Sendo pouco especifico com class
+*/
+/* 
 li.link a, a.link{
-    color: #ff0000;
-    
-
+    color : brown;
 } */
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
-    box-sizing: border-box; /*padding e bordas afetam no tamanho do elemento, quebrando a conta do layout*/
 }
 
 h1{
-    width: 284px;
+    width: 466px;
     height: 249px;
     background-color: #d9d9d9;
-    padding: 71px 23px;
-    text-align: center;
-    border: solid 2px #ffff00;
+    padding: 72px 26px 71px 26px;
     float: left;
+    text-align: center;
+    font-size: 80px;
 }
 
-li{
-    list-style-type: none;
+.cabecalho nav{
+    float: right;
 }
+
+.cabecalho nav ul{
+    list-style: none;
+}
+
+.cabecalho nav ul li{
+    display: inline-block;
+}
+
+.cabecalho nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+    font-style: bold;
+    text-align: center;
+    background-color: #d9d9d9;
+    padding: 90px 10px;
+    height: 249px;
+}
+
+.rodape{
+    clear: left;
+}
+
