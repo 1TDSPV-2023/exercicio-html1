@@ -85,6 +85,10 @@ h1{
 
 }
 
+.conteudo{
+    clear: left;
+}
+
 .rodape{
 
     clear: left;
