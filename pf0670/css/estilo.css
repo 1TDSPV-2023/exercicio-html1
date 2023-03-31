@@ -1,17 +1,4 @@
-/* #container{
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: aqua;
-    border: 2px solid #ff0000;
-}
 
-/*
-Sendo pouco especifico com class
-*/
-/* 
-li.link a, a.link{
-    color : brown;
-} */
 *{
     margin: 0;
     padding: 0;
@@ -52,6 +39,11 @@ h1{
     background-color: #d9d9d9;
     padding: 90px 10px;
     height: 249px;
+    width: 266px;
+}
+
+.conteudo{
+    clear: left;
 }
 
 .rodape{
