@@ -1,41 +1,51 @@
-/* #container{
-        margin-left:  20%;
-        margin-right: 20%;
-        background-color : #00ffff;
-        border: 2px solid rgb(255, 0, 0);
-}
-/* 
-/*
-Sendo pouco especifico com class
-
-**/
-
-/* li.link a,a.link{
-
-        color: blueviolet;
-
-} */ 
 
 *{
         margin: 0;
         padding: 0;
-        box-sizing:  border-box;
+        box-sizing: border-box;
         font-size: 16px;
-}
-h1 {
-        width: : 284px;
+    }
+    
+    h1{
         height: 249px;
+        width: 466px;
+        border-radius: 0px;
+        padding: 72px 26px 71px 26px;
         background-color: #d9d9d9;
-        padding: 30px 30px 30px 30px;
-        border: solid 2px #ffff00;
-        float: :left;
-
-        /* border-style: solid;
-        border-left: 2px;
-        border-right: 2px;
-        border-top: 0;
-        border-bottom: 0; */
-
+        float: left;
         text-align: center;
-
-}
+        font-size: 80px;
+    }
+    
+    .cabecalho nav{
+        float: right;
+    }
+    
+    .cabecalho nav ul{
+        list-style: none;
+    }
+    
+    .cabecalho nav ul li{
+        display: inline-block;
+    }
+    
+    .cabecalho nav ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #000000;
+        font-size: 45px;
+        font-style: bold;
+        text-align: center;
+        background-color: #d9d9d9;
+        padding: 90px 10px;
+        height: 249px;
+        width: 266px;
+    }
+    
+    .conteudo{
+        clear: left;
+    }
+    
+    .rodape{
+        clear: left;
+    }
