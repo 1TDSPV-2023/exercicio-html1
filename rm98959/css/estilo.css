@@ -6,11 +6,17 @@
 }
 
 h1{
-    width: 284px;
     height: 249px;
+    width: 284px;
+    width: 462px;
+    border-radius: 0px;
+    padding: 72px 24px 71px 24px;
     background-color: #d9d9d9;
-    padding: 30px 30px 30px 30px;
-    border: solid 2px #000000;
     float: left;
     text-align: center;
+    font-size: 80px;
+}
+
+.rodape{
+    clear: left;
 }
