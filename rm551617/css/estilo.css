@@ -12,18 +12,79 @@ li.link a, a.link{
 
 /* Reset de css mais utilizado */
 *{
+
     margin: 0;
+
     padding: 0;
+
     box-sizing: border-box;
+
     font-size: 16px;
+
 }
 
 h1{
-    width: 284px;
+
     height: 249px;
+
+    width: 466px;
+
+    border-radius: 0px;
+
+    padding: 72px 26px 71px 26px;
+
     background-color: #d9d9d9;
-    padding: 30px 30px 30px 30px;
-    border: solid 2px #000;
-    text-align: center;
+
     float: left;
+
+    text-align: center;
+
+    font-size: 80px;
+
+}
+
+.cabecalho nav{
+
+    float: right;
+
+}
+
+.cabecalho nav ul{
+
+    list-style: none;
+
+}
+
+.cabecalho nav ul li{
+
+    display: inline-block;
+
+}
+
+.cabecalho nav ul li a {
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #000000;
+
+    font-size: 45px;
+
+    font-style: bold;
+
+    text-align: center;
+
+    background-color: #d9d9d9;
+
+    padding: 90px 10px;
+
+    height: 249px;
+
+}
+
+.rodape{
+
+    clear: left;
+
 }
