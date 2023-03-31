@@ -15,7 +15,28 @@ h1{
     border-radius: 0px;
     font-size: 80px;
 }
+.cabecalho nav{
+    float: right;
+}
+.cabecalho nav ul{
+    list-style: none;
+}
+.cabecalho nav ul li{
+    display: inline-block;
+    padding: 72px 10px;
+}
+.cabecalho nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: darkgray;
+    font-size: 45px;
+    font-style: bold;
+    text-align: center;   
+    padding: 90px 10px;
+    height: 249px;
+       
+}
 .rodape{
     clear: left;
-    
 }
