@@ -1,4 +1,32 @@
-div{
+/* #container{
     margin-left: 20%;
     margin-right: 20%;
+    background-color: aqua;
+    border: 2px solid #ff1050;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    
+} */
+
+
+
+ /*RESET PADRAO PARA BROWSERS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 16px;
+}
+
+h1{
+    width: 284px;
+    height: 249px;
+    background-color: #d9d9d9;
+    text-align: center;
+    border: solid 2px yellow;
+    padding: 30px 30px;
+    float: left;
 }
