@@ -20,19 +20,16 @@ li.link a, a.link{
 }
 
 h1{
-    width: 284px;
     height: 249px;
+    width: 466px;
+    border-radius: 0px;
+    padding: 72px 26px 71px 26px;
     background-color: #d9d9d9;
-    padding: 30px 30px;
-    border: solid 2px #ffff00;
     float: left;
-   
-/* 
-    border-style: solid;
-    border-left: 2px;
-    border-right: 1px;
-    border-top: 0;
-    border-bottom: 0; */
-
     text-align: center;
+    font-size: 80px;
+}
+
+.rodape{
+    clear: left;
 }
