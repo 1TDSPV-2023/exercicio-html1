@@ -16,7 +16,11 @@ li.link a, a.link{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 16px; 
+    /*
+        box-sizing border box controla o padding, 
+        para que ele nao estoure o tamanho do conteúdo e entre em conflito em outros elementos
+    */
 }
 
 h1{
@@ -29,10 +33,11 @@ h1{
     font-size: 80px;
 }
 
+
+
 .cabecalho nav{
     float: right;
 }
-
 .cabecalho nav ul{
     list-style: none;
 }
@@ -40,7 +45,6 @@ h1{
 .cabecalho nav ul li{
     display: inline-block;
 }
-
 .cabecalho nav ul li a{
     display: inline-block;
     text-decoration: none;
@@ -51,7 +55,16 @@ h1{
     background-color: #d9d9d9;
     padding: 90px 10px;
     height: 249px;
+    width: 266px;
 }
+
+
+
+.conteudo{
+    clear: left;
+}
+
+
 
 .rodape{
     clear: left;
