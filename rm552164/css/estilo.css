@@ -42,5 +42,10 @@ h1 {
     background-color: #d9d9d9;
     padding: 90px 10px;
     height: 249px;
+    width: 266px;
+}
+
+.conteudo {
+    clear: left;
 }
 
