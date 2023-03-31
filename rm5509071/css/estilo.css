@@ -26,13 +26,6 @@ h1{
     padding: 30px 30px;
     border: solid 2px #ffff00;
     float: left;
-   
-/* 
-    border-style: solid;
-    border-left: 2px;
-    border-right: 1px;
-    border-top: 0;
-    border-bottom: 0; */
-
+    font: size 100px;;
     text-align: center;
 }
