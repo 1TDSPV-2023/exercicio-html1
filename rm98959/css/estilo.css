@@ -17,6 +17,30 @@ h1{
     font-size: 80px;
 }
 
+.cabecalho nav{
+    float: right;
+}
+
+.cabecalho nav ul{
+    list-style: none;
+}
+
+.cabecalho nav ul li{
+    display: inline-block;
+}
+
+.cabecalho nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 45px;
+    font-style: bold;
+    text-align: center;
+    background-color: #d9d9d9;
+    padding: 90px 10px;
+    height: 249px;
+}
+
 .rodape{
     clear: left;
 }
