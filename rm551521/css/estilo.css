@@ -1,37 +1,62 @@
- div{
-    /* #container{
-        margin-left: 20%;
-        margin-right: 20%;
-        background-color: aqua;
-        border: 2px solid #ff0000;
-    }
-    /*
-    Sendo pouco especifico com class
-    */
-    /* 
-    li.link a, a.link{
-        color : brown;
-    } */
-    
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-size: 16px;
-    }
+/* #container{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aqua;
+    border: 2px solid #ff0000;
+}
+/*
+Sendo pouco especifico com class
+*/
+/* 
+li.link a, a.link{
+    color : brown;
+} */
 
-    h1{
-        width: 284px;
-        height: 249px;
-        background-color: #d9d9d9;
-        padding: 30px 30px;
-        border: solid 2px #ffff00;
-        float: left;
-    }
-    /* 
-        border-style: solid;
-        border-left: 2px;
-        border-right: 1px;
-        border-top: 0;
-        border-bottom: 0; */
-    
+*{
+    margin: 0;
+    padding: 0;
+@@ -52,8 +39,13 @@ h1{
+    background-color: #d9d9d9;
+    padding: 90px 10px;
+    height: 249px;
+    width: 266px;
+}
+
+.conteudo{
+    clear: left;
+}
+
+.rodape{
+    clear: left;
+}
+}
+  20  
+pf0670/index.html
+@@ -34,6 +34,26 @@ <h1>MEU SITE</h1>
+            </nav>
+        </header>
+
+        <section class="conteudo">
+
+            <div>
+                <h2>GAMES</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non incidunt reiciendis odit natus pariatur
+                    saepe inventore obcaecati optio itaque tenetur.</p>
+            </div>
+            <div>
+                <h2>MOBILE</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non incidunt reiciendis odit natus pariatur
+                    saepe inventore obcaecati optio itaque tenetur.</p>
+            </div>
+            <div>
+                <h2>TECH</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non incidunt reiciendis odit natus pariatur
+                    saepe inventore obcaecati optio itaque tenetur.</p>
+            </div>
+
+        </section>
+
+    </div>
+
+    <div class="rodape">
         
