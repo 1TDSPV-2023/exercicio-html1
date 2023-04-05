@@ -12,36 +12,42 @@ body{
 
 .box-pai{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   /* align-items: center;*/
 
 }
 
 .box{
     border: 2px #ff0000 solid;
-    
-}
-
-.box-filhas{
-    color: rgb(0, 0, 0);
-    width: 100px;
+    width: 100vw;
     height: 100px;
     text-align: center;
 }
 
+.box-filhas{
+    color: rgb(0, 0, 0);
+ 
+    
+}
+
 .box-1{
     background-color: aquamarine;
-
+    flex-grow: 1;
 }
 
 .box-2{
     background-color: coral;
-
+    flex-grow: 3;
 }
 
 .box-3{
     background-color: yellow;
+    flex-grow: 1;
 }
 
 .box-4{
     background-color: #fff3;
+    flex-grow: 2;
 }
