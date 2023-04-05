@@ -5,20 +5,31 @@
 }
 
 body{
-    width: 1440px;
+    width: 100%;
     height: 1024px;
 }
 
 
 .box-pai{
     display: flex;
+    /*flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse
+    */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
 }
 .box-filhas{
     color: #fff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
 
 .box{
-    border: 2px #ff0000 ;
+    border: 2px  #ff0000 solid ;
 }
 
 .box-1{
