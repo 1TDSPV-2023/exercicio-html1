@@ -7,15 +7,22 @@
     width: 1440px;
     height: 1024px;
 }
-.box-pai{
-    display: flex;
+.box-filhas{
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
 
-.box-filhas{
-    color: white
-}
 .box{
     border: 2px #ff0000 ;
+}
+.box-pai{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; flex-direction: column; */
+    flex-wrap: wrap;
 }
 .box-1{
     background-color: brown;
