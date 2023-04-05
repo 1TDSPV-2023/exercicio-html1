@@ -14,13 +14,17 @@ body{
     width: 100px;
     height: 100px;
     text-align: center;
-
+    margin: 0 5%;
 
 }
 .box-pai{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
 }
 .box{
     border: 2px #ff0000  dashed;
@@ -28,16 +32,20 @@ body{
 
 .box-1{
     background-color: blue;
+    flex-grow: 1;
 }
 
 .box-2{
     background-color: blueviolet;
+    flex-grow: 1;
 }
 
 .box-3{
     background-color: brown;
+    flex-grow: 1;
 }
 
 .box-4{
     background-color: yellowgreen;
+    flex-grow: 1;
 }
