@@ -22,7 +22,7 @@
     flex-direction: row;
     /* flex-direction: row-reverse; */
     /* flex-direction: column; flex-direction: column; */
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .box-1{
     background-color: brown;
