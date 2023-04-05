@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 1024px;
+}
+
+.box-pai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.box-filhas {
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.box {
+    border: 2px #ff0000 solid;
+}
+
+.box-1 {
+    background-color: blue;
+    flex-grow: 4;
+}
+.box-2 {
+    background-color: rgb(32, 212, 218);
+    flex-grow: 4;
+}
+.box-3 {
+    background-color: rgb(255, 77, 77);
+    flex-grow: 1;
+}
+.box-4 {
+    background-color: rgb(255, 0, 0);
+    flex-grow: 1;
+}
