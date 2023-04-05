@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 1024px;
+
+}
+
+.box-pai{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.box{
+    border: 2px #ff0000 solid;
+    
+}
+
+.box-filhas{
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.box-1{
+    background-color: aquamarine;
+
+}
+
+.box-2{
+    background-color: coral;
+
+}
+
+.box-3{
+    background-color: yellow;
+}
+
+.box-4{
+    background-color: #fff3;
+}
