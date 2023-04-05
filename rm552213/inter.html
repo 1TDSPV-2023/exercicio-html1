@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio HTML</title>
-</head>
-<body>
-    <!--
-        Criar um link para # e colocar o texto "Meu Site" dentro do link.
-        Criar um menu com 4 links para as seções do site.
-        Crie ancoras para as seções do site. (Sobre, Serviços, Fotos e Contato)
-        Utilizando a semântica de elementos correta.
-    -->
-    
-    <div>
-        <!-- Tag a responsável por direcionar o fluxo de navegação. -->
-        <!-- <a href="http://pudim.com.br" target="_blank">Meu Site</a><br>
-        <a href="mailto:email@email.com" target="_blank">email@email.com</a><br>
-        <a href="tel:11987562231" target="_blank">11987562231</a><br> -->
-        <a href="#" target="_blank">Meu Site</a><br>
+    <title>HOME</title>
 
-        <nav>
-            <ul>
-                <li><a href="#">Item-1</a></li>
-                <li><a href="#">Item-2</a></li>
-                <li><a href="#">Item-3</a></li>
-                <li><a href="#">Item-4</a></li>
-            </ul>
-        </nav>
+    <!-- <style>
+        nav ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+    </style> -->
+
+    <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header class="cabecalho">
+
+            <h1>MEU SITE</h1>
+            <nav>
+                <ul>
+                    <li class="link"><a href="./games.html">GAMES</a></li>
+                    <li class="link"><a href="#">MOBILE</a></li>
+                    <li class="link"><a href="#">TECH</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="conteudo">
+
+            <div>
+                <h2>GAMES</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non incidunt reiciendis odit natus pariatur
+                    saepe inventore obcaecati optio itaque tenetur.</p>
+            </div>
+            <div>
+                <h2>MOBILE</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non incidunt reiciendis odit natus pariatur
+                    saepe inventore obcaecati optio itaque tenetur.</p>
+            </div>
+            <div>
+                <h2>TECH</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non incidunt reiciendis odit natus pariatur
+                    saepe inventore obcaecati optio itaque tenetur.</p>
+            </div>
+
+        </section>
 
     </div>
 
+    <div class="rodape">
+        <footer>
+            <p>
+                Todos os direitos reservados &copy - 2023 - <a class="link" href="#">Mais em...</a>
+            </p>
+        </footer>
+    </div>
 </body>
+
 </html>
