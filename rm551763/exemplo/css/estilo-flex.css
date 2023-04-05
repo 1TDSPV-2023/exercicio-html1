@@ -7,31 +7,44 @@
 
 
 body{
-    width: 1440px;
+    width: 100vw;
     height: 1024px;
 }
 
 .box-pai{
     display: flex;
-}
-
-.box{
-    border: 1px solid #ff0000;
+    flex-direction: row;
+    flex-wrap: wrap; /*quebra os elementos e joga pra baixo*/
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .box-filhas{
     color: #fff;
+    margin: 0 5%;
 }
+
+.box{
+    border: 1px solid #ff0000;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+}
+
 
 .box-1{
     background-color: blue;
+    flex-grow: 1;
 }
 .box-2{
     background-color: brown;
+    flex-grow: 3;
 }
 .box-3{
     background-color: blueviolet;
+    flex-grow: 1;
 }
 .box-4{
     background-color: darkgoldenrod;
+    flex-grow: 2;
 }
