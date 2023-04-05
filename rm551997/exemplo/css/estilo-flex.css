@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    height: 1024;
+}
+
+.box-filhas{
+    color:#ffffff;
+}
+
+.box{
+    display: flex;
+}
+
+.box-1{
+    border: 2px #0f0fff solid;
+}
+
+.box-1{
+    border: 2px #ff00ff solid;
+}
+
+
+.box-2{
+    border: 2px #b3ff00 solid;
+}
+
+.box-3{
+    border: 2px #b3fff0 solid;
+}
+
+.box-4{
+    border: 2px #ffffff solid;
+}
